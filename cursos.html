@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>Complexo escolar Daniel Da Costa</title>
+</head>
+
+
+<body>
+
+    <section class="sub-header">
+
+
+        <nav>
+            <a href="index.html"><h2>Logo</h2></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <button class="btnLogin-popup" href="Login.html">Login</button>  
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>  
+     <h1>Nossos cursos</h1>
+
+    </section>
+
+    <!------- Courses ------->
+    
+    <section class="cursos">
+
+
+        <h1>Cursos que oferecemos</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        
+        <div class="row">
+            <div class="cursos-col">
+               <h3>Técnico de informática</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque aliquet turpis nulla, eleifend faucibus est
+                solicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+                Donec sit.</p>
+            </div>
+
+        <div class="cursos-col">
+               <h3>Desenho técnico</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque aliquet turpis nulla, eleifend faucibus est
+                    solicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+                    Donec sit.</p>
+        </div>
+
+    <div class="cursos-col">
+                <h3>Finanças</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque aliquet turpis nulla, eleifend faucibus est
+                    solicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+                    Donec sit.</p>
+    </div>
+</div>
+
+
+    </section>
+
+ <!----Facilidades/Vantagens----->
+
+
+
+ <section class="instalacoes">
+                
+    <h1>Nossas instalações</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Pellentesque aliquet turpis nulla.</p>
+<div class="row">
+<div class="instalacoes-col">
+    <img src="img/library.png" alt="">
+    <h3>Biblioteca</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Pellentesque aliquet turpis nulla.</p>
+</div>
+<div class="instalacoes-col">
+    <img src="img/basketball.png" alt="">
+    <h3>Campo de esportes</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Pellentesque aliquet turpis nulla.</p>
+
+</div>
+<div class="instalacoes-col">
+    <img src="img/cafeteria.png" alt="">
+    <h3>Refeitorio</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Pellentesque aliquet turpis nulla.</p>
+
+</div>
+</div>
+</section>
+
+    <!----- Footer ----->
+   
+
+       <!----- Footer ----->
+<footer class="footer">
+    <div class="contentor">
+        <div class="rov">
+            <div class="footer-cool">
+                <h4>ORDACOF</h4>
+                <ul>
+                    <li><a href="">Sobre nós</a></li>
+                    <li><a href=""> Nossos serviços</a></li>
+                    <li><a href="">Política de privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-cool">
+                <h4>AJUDA E SUPORTE</h4>
+                <ul>
+                    <li><a href="">Opções de pagamento</a></li>
+                    <li><a href="">...</a></li>
+                    <li><a href="">...</a></li>
+                    <li><a href="">...</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <div class="footer-cool">
+                <h4>ORDACOF</h4>
+                <ul>
+                    <li><a href="">Sobre nós</a></li>
+                    <li><a href=""> Nossos serviços</a></li>
+                    <li><a href="">Política de privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-cool">
+                <h4>SIGA-NOS</h4>
+                <div class="social-links">
+                    <a href="">.<i class="fab fa-fecebook-f"></i></a>
+                    <a href="">.<i class="fab fa-twiter"></i></a>
+                    <a href="">.<i class="fab fa-instagram"></i></a>
+                    <a href="">.<i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+           
+
+        </div>
+    </div>
+
+</footer>
+
+    
+
+
+
+
+    <!----javascript for toggle menu---->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+            
+        }
+
+          function hideMenu(){
+            navLinks.style.right = "-200px";
+          }
+    </script>   
+
+</body>
+</html>
